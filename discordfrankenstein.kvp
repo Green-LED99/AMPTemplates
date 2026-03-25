@@ -1,6 +1,6 @@
 [Application]
 App.DisplayName=DiscordFrankenstein
-App.RootDir=./discordfrankenstein/
+App.RootDir=./
 App.WorkingDir=./
 App.ExecutableWin=node.exe
 App.ExecutableLinux=node
@@ -8,7 +8,7 @@ App.CommandLineArgs=dist/index.js
 App.EnvironmentVariables={"BOT_TOKEN": "{{BotToken}}", "USER_TOKEN": "{{UserToken}}", "TMDB_API_KEY": "{{TmdbApiKey}}", "STREMIO_ADDON_URL": "{{StremioAddonUrl}}", "MAX_RESOLUTION": "{{MaxResolution}}", "MAX_FPS": "{{MaxFps}}", "VIDEO_BITRATE": "{{VideoBitrate}}", "HARDWARE_ACCEL": "{{HardwareAccel}}"}
 App.AppSettings={"BotToken": "", "UserToken": "", "TmdbApiKey": "", "StremioAddonUrl": "", "MaxResolution": "720", "MaxFps": "30", "VideoBitrate": "2500", "HardwareAccel": "auto"}
 App.ExitMethod=CtrlC
-App.HasWritableConsole=true
+App.HasWriteableConsole=true
 App.HasReadableConsole=true
 App.AdminMethod=STDIO
 App.MaxUsers=50
